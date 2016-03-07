@@ -1,0 +1,14 @@
+﻿---
+ID: "fb232f6c-8978-47a3-b49c-657caa3c4288"
+Parent: "b121af50-77b3-484e-b578-2f3b4da45b5d"
+Template: "c3b037a0-46e5-4b67-ac7a-a144b962a56f"
+Path: /sitecore/layout/Placeholder Settings/Project/MakeItMio
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160304T000452Z

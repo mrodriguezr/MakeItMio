@@ -1,0 +1,24 @@
+﻿---
+ID: "8448fac0-7cce-4bf4-8f9f-39bae549328c"
+Parent: "4b73278e-a23c-415d-a6fc-cbd9a7c61fdf"
+Template: "6da31be4-12f0-48fb-97e2-c504c465b1c0"
+Path: /sitecore/content/MakeItMio/Home
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T213539Z

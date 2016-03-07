@@ -1,0 +1,21 @@
+﻿---
+ID: "5b5ff05a-895c-471a-96d1-4dd295969164"
+Parent: "1c0cbf7c-f110-4b69-8ae2-f8f553b04145"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Social/_OpenGraph/Facebook Open Graph/OpenGraphDescription
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Multi-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160303T224107Z

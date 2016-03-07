@@ -1,0 +1,18 @@
+﻿---
+ID: "90c7e4ee-6d63-4f54-ac14-31e9f3022a89"
+Parent: "4bdcb7f9-4001-4831-85fe-1c0da28f7c15"
+Template: "239f9cf4-e5a0-44e0-b342-0f32cd4c6d8b"
+Path: /sitecore/content/MakeItMio/Global/Dictionary
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/book_red.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160307T212809Z
