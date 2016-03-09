@@ -1,0 +1,17 @@
+{
+  "compilers": {
+    "sass": {
+      "indentType": "space",
+      "indentWidth": 2,
+      "outputStyle": "nested",
+      "Precision": 5,
+      "includePath": "stylesheets/",
+      "relativeUrls": false
+    },
+    "coffeescript": {
+      "bare": false,
+      "runtimeMode": "node",
+      "sourceMap": false
+    }
+  }
+}

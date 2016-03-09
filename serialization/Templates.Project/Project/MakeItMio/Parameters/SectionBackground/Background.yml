@@ -1,0 +1,17 @@
+﻿---
+ID: "111899ba-f08f-4469-b4e6-44589bbe7c59"
+Parent: "8ec64a35-2d9c-4f37-9915-7e8015da8a14"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/MakeItMio/Parameters/SectionBackground/Background
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160308T192129Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

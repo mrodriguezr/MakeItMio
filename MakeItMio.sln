@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeItMio", "src\MakeItMio\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{C18E9CBD-9B00-436F-8F99-23FC9ED3C74D}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		src\MakeItMio\App_Config\Include\Project\DevSettings.config = src\MakeItMio\App_Config\Include\Project\DevSettings.config
 		gulp-config.js = gulp-config.js
 		gulpfile.js = gulpfile.js

@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,6 +44,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DynamicPlaceholders, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DynamicPlaceholders.1.1.0.1\lib\net45\DynamicPlaceholders.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DynamicPlaceholders.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DynamicPlaceholders.Mvc.1.1.0.1\lib\net45\DynamicPlaceholders.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Kamsar.WebConsole, Version=1.2.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Kamsar.WebConsole.1.2.2.0\lib\net40\Kamsar.WebConsole.dll</HintPath>
       <Private>True</Private>
@@ -73,7 +82,7 @@
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\references\Sitecore.Kernel.dll</HintPath>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc">
       <HintPath>..\..\references\Sitecore.Mvc.dll</HintPath>
@@ -81,6 +90,7 @@
     <Reference Include="Sitecore.Mvc.Analytics">
       <HintPath>..\..\references\Sitecore.Mvc.Analytics.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -92,20 +102,18 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\references\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="Unicorn, Version=3.1.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Unicorn.Core.3.1.4\lib\net45\Unicorn.dll</HintPath>
       <Private>True</Private>
@@ -135,15 +143,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Global.asax" />
+    <Content Include="assets\bootstrap.css" />
+    <Content Include="assets\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
+    <Content Include="assets\makeitmio.css" />
+    <Content Include="assets\makeitmio.min.css">
+      <DependentUpon>makeitmio.css</DependentUpon>
+    </Content>
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="javascripts\bootstrap-sprockets.js" />
+    <Content Include="javascripts\bootstrap.js" />
+    <Content Include="javascripts\bootstrap.min.js" />
+    <Content Include="javascripts\bootstrap\affix.js" />
+    <Content Include="javascripts\bootstrap\alert.js" />
+    <Content Include="javascripts\bootstrap\button.js" />
+    <Content Include="javascripts\bootstrap\carousel.js" />
+    <Content Include="javascripts\bootstrap\collapse.js" />
+    <Content Include="javascripts\bootstrap\dropdown.js" />
+    <Content Include="javascripts\bootstrap\modal.js" />
+    <Content Include="javascripts\bootstrap\popover.js" />
+    <Content Include="javascripts\bootstrap\scrollspy.js" />
+    <Content Include="javascripts\bootstrap\tab.js" />
+    <Content Include="javascripts\bootstrap\tooltip.js" />
+    <Content Include="javascripts\bootstrap\transition.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
+    <Content Include="Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="Views\Website\Layouts\Default.cshtml" />
     <Content Include="App_Config\Include\Project\z.MakeItMio.DevSettings.config" />
@@ -163,7 +197,94 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Config\Include\Project\MakeItMio.Website.config" />
+    <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
+    <Content Include="images\.keep" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Properties\PublishProfiles\local.pubxml" />
+    <Content Include="Views\Website\SubLayouts\1 Column.cshtml" />
+    <Content Include="Views\Website\SubLayouts\Section.cshtml" />
+    <Content Include="stylesheets\_bootstrap.scss" />
+    <Content Include="stylesheets\_bootstrap-sprockets.scss" />
+    <Content Include="stylesheets\_bootstrap-mincer.scss" />
+    <Content Include="stylesheets\_bootstrap-compass.scss" />
+    <Content Include="stylesheets\bootstrap\_wells.scss" />
+    <Content Include="stylesheets\bootstrap\_variables.scss" />
+    <Content Include="stylesheets\bootstrap\_utilities.scss" />
+    <Content Include="stylesheets\bootstrap\_type.scss" />
+    <Content Include="stylesheets\bootstrap\_tooltip.scss" />
+    <Content Include="stylesheets\bootstrap\_thumbnails.scss" />
+    <Content Include="stylesheets\bootstrap\_theme.scss" />
+    <Content Include="stylesheets\bootstrap\_tables.scss" />
+    <Content Include="stylesheets\bootstrap\_scaffolding.scss" />
+    <Content Include="stylesheets\bootstrap\_responsive-utilities.scss" />
+    <Content Include="stylesheets\bootstrap\_responsive-embed.scss" />
+    <Content Include="stylesheets\bootstrap\_progress-bars.scss" />
+    <Content Include="stylesheets\bootstrap\_print.scss" />
+    <Content Include="stylesheets\bootstrap\_popovers.scss" />
+    <Content Include="stylesheets\bootstrap\_panels.scss" />
+    <Content Include="stylesheets\bootstrap\_pagination.scss" />
+    <Content Include="stylesheets\bootstrap\_pager.scss" />
+    <Content Include="stylesheets\bootstrap\_normalize.scss" />
+    <Content Include="stylesheets\bootstrap\_navs.scss" />
+    <Content Include="stylesheets\bootstrap\_navbar.scss" />
+    <Content Include="stylesheets\bootstrap\_modals.scss" />
+    <Content Include="stylesheets\bootstrap\_mixins.scss" />
+    <Content Include="stylesheets\bootstrap\_media.scss" />
+    <Content Include="stylesheets\bootstrap\_list-group.scss" />
+    <Content Include="stylesheets\bootstrap\_labels.scss" />
+    <Content Include="stylesheets\bootstrap\_jumbotron.scss" />
+    <Content Include="stylesheets\bootstrap\_input-groups.scss" />
+    <Content Include="stylesheets\bootstrap\_grid.scss" />
+    <Content Include="stylesheets\bootstrap\_glyphicons.scss" />
+    <Content Include="stylesheets\bootstrap\_forms.scss" />
+    <Content Include="stylesheets\bootstrap\_dropdowns.scss" />
+    <Content Include="stylesheets\bootstrap\_component-animations.scss" />
+    <Content Include="stylesheets\bootstrap\_code.scss" />
+    <Content Include="stylesheets\bootstrap\_close.scss" />
+    <Content Include="stylesheets\bootstrap\_carousel.scss" />
+    <Content Include="stylesheets\bootstrap\_buttons.scss" />
+    <Content Include="stylesheets\bootstrap\_button-groups.scss" />
+    <Content Include="stylesheets\bootstrap\_breadcrumbs.scss" />
+    <Content Include="stylesheets\bootstrap\_badges.scss" />
+    <Content Include="stylesheets\bootstrap\_alerts.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_vendor-prefixes.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_text-overflow.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_table-row.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_tab-focus.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_size.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_responsive-visibility.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_resize.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_reset-filter.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_progress-bar.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_panels.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_pagination.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_opacity.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_nav-vertical-align.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_list-group.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_labels.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_image.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_hide-text.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_grid.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_gradients.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_forms.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_center-block.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_buttons.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="stylesheets\bootstrap\mixins\_alerts.scss" />
+    <Content Include="stylesheets\makeitmio.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

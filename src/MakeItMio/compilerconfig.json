@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "assets/bootstrap.css",
+    "inputFile": "stylesheets/_bootstrap.scss"
+  },
+  {
+    "outputFile": "assets/makeitmio.css",
+    "inputFile": "stylesheets/makeitmio.scss"
+  }
+]

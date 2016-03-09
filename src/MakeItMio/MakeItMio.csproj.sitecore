@@ -1,0 +1,11 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="localmio" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+  <File Include="Views\Website\SubLayouts\1 Column.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{34D96C99-1CFA-4677-9046-6A5C5B4FD584}</Item>
+  </File>
+  <File Include="Views\Website\SubLayouts\Section.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F8EB11FA-76B7-49E2-9453-7EC82A8020D3}</Item>
+  </File>
+</Project>

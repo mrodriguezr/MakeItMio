@@ -1,0 +1,14 @@
+﻿---
+ID: "720fc175-2f5b-415e-b2e6-24dbc8a3188e"
+Parent: "5e3779f3-03ea-4c6a-9b8a-6ffcc48ca49d"
+Template: "5e3779f3-03ea-4c6a-9b8a-6ffcc48ca49d"
+Path: /sitecore/templates/Project/MakeItMio/Parameters/ColumnContainer/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160308T212453Z
