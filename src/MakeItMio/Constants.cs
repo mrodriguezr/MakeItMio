@@ -10,6 +10,7 @@ namespace MakeItMio
         public struct LayoutParameters
         {
             public static string IsFluid => "ContainerIsFluid";
+            public static string Background => "Type";
         }
     }
 }

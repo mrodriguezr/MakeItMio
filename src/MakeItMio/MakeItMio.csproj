@@ -285,6 +285,14 @@
     <Content Include="stylesheets\bootstrap\mixins\_background-variant.scss" />
     <Content Include="stylesheets\bootstrap\mixins\_alerts.scss" />
     <Content Include="stylesheets\makeitmio.scss" />
+    <Content Include="stylesheets\templates\_footer.scss" />
+    <Content Include="stylesheets\templates\_variables.scss" />
+    <Content Include="stylesheets\templates\_header.scss" />
+    <Content Include="Views\Identity\Copyright.cshtml" />
+    <Content Include="Views\Website\SubLayouts\3 Column 4-4-4.cshtml" />
+    <Content Include="Views\Feature\Media\PromotionCard.cshtml" />
+    <Content Include="Views\Website\SubLayouts\2 Column 6-6.cshtml" />
+    <Content Include="stylesheets\templates\_section.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -296,6 +304,16 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MakeItMio.Repositories\MakeItMio.Repositories.csproj">
+      <Project>{a59cd1be-379a-49d0-8573-565c488af6b7}</Project>
+      <Name>MakeItMio.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MakeItMio.Templates\MakeItMio.Templates.csproj">
+      <Project>{1236b046-f913-4e4d-aa62-2532033c12ba}</Project>
+      <Name>MakeItMio.Templates</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

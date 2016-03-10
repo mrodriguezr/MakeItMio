@@ -1,0 +1,14 @@
+﻿---
+ID: "74793d91-c336-407e-a5a7-ca8895e1b4e0"
+Parent: "4bdcb7f9-4001-4831-85fe-1c0da28f7c15"
+Template: "8930308b-e6c2-4968-a952-e7b3d7854df8"
+Path: /sitecore/content/MakeItMio/Global/Media
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160310T195822Z

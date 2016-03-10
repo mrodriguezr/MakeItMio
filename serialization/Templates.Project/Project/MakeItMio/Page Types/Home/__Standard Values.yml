@@ -12,7 +12,12 @@ SharedFields:
     <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-        l="{01EBC249-5E1F-4F1E-B2A1-D83EBEA56DCF}" />
+        l="{01EBC249-5E1F-4F1E-B2A1-D83EBEA56DCF}">
+        <r
+          id="{20C8E5E8-9688-4949-BFFC-702E55DFA342}"
+          ph="footer"
+          uid="{14C1CE3B-6F94-4ECF-91ED-EB5185D2806A}" />
+      </d>
     </r>
 Languages:
 - Language: en

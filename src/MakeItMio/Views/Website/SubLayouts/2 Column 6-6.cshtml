@@ -1,0 +1,14 @@
+﻿@using Sitecore
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div class="container@(MainUtil.GetBool(Model.Rendering.Parameters[MakeItMio.Constants.LayoutParameters.IsFluid], false) ? "-fluid" : "" )">
+    <div class="row">
+        <div class="col-sm-6">
+            @Html.Sitecore().DynamicPlaceholder("col-narrow-1")
+        </div>
+        <div class="col-sm-6">
+            @Html.Sitecore().DynamicPlaceholder("col-narrow-2")
+        </div>
+    </div>
+</div>

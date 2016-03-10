@@ -1,0 +1,24 @@
+﻿---
+ID: "10aec163-fe76-442a-8fe1-49a8323a1573"
+Parent: "8930308b-e6c2-4968-a952-e7b3d7854df8"
+Template: "8930308b-e6c2-4968-a952-e7b3d7854df8"
+Path: /sitecore/templates/Project/MakeItMio/Content Types/Media/Media Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {9070DC51-7377-46C4-9C8D-D776396B2764}
+    {8930308B-E6C2-4968-A952-E7B3D7854DF8}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160310T195701Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

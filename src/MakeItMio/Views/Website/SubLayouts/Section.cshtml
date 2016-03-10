@@ -1,5 +1,7 @@
-﻿@model Sitecore.Mvc.Presentation.RenderingModel
+﻿@using Sitecore;
+@model Sitecore.Mvc.Presentation.RenderingModel
 
-<section class="section section-full">
+
+<section class="section section-full @Model.Rendering.Parameters[MakeItMio.Constants.LayoutParameters.Background]">
     @Html.Sitecore().DynamicPlaceholder("section")
 </section>

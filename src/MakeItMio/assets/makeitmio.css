@@ -1,9 +1,17 @@
-﻿header {
+﻿.bg-dark {
+  background: #424C5F;
+  color: #fff; }
+
+.bg-sky {
+  background: #d8f3ff; }
+
+header {
   height: 50px; }
 
 footer {
-  background: none #474747;
+  background: none #424C5F;
   border-top: 3px solid #00a7ea;
+  color: #fff;
   height: 60px;
   padding: 15px 0; }
 

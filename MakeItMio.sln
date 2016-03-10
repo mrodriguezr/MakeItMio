@@ -13,6 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		gulpfile.js = gulpfile.js
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeItMio.Extensions", "src\MakeItMio.Extensions\MakeItMio.Extensions.csproj", "{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeItMio.Repositories", "src\MakeItMio.Repositories\MakeItMio.Repositories.csproj", "{A59CD1BE-379A-49D0-8573-565C488AF6B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeItMio.Templates", "src\MakeItMio.Templates\MakeItMio.Templates.csproj", "{1236B046-F913-4E4D-AA62-2532033C12BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,18 @@ Global
 		{E2B1104D-506F-445A-899B-4E79612DA25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2B1104D-506F-445A-899B-4E79612DA25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2B1104D-506F-445A-899B-4E79612DA25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59CD1BE-379A-49D0-8573-565C488AF6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59CD1BE-379A-49D0-8573-565C488AF6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59CD1BE-379A-49D0-8573-565C488AF6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59CD1BE-379A-49D0-8573-565C488AF6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1236B046-F913-4E4D-AA62-2532033C12BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1236B046-F913-4E4D-AA62-2532033C12BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1236B046-F913-4E4D-AA62-2532033C12BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1236B046-F913-4E4D-AA62-2532033C12BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

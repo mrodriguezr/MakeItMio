@@ -8,4 +8,13 @@
   <File Include="Views\Website\SubLayouts\Section.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{F8EB11FA-76B7-49E2-9453-7EC82A8020D3}</Item>
   </File>
+  <File Include="Views\Identity\Copyright.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{20C8E5E8-9688-4949-BFFC-702E55DFA342}</Item>
+  </File>
+  <File Include="Views\Website\SubLayouts\3 Column 4-4-4.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B15DF6E7-31EE-4A9C-AD49-E02BC7FA9EED}</Item>
+  </File>
+  <File Include="Views\Feature\Media\PromotionCard.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{8753B1EF-C157-4B2A-BF5C-A37F6DF89DCD}</Item>
+  </File>
 </Project>

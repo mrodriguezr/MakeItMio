@@ -1,11 +1,6 @@
 ﻿
-header {
-    height: 50px;
-}
 
-footer {
-    background: none #474747;
-    border-top: 3px solid #00a7ea;
-    height: 60px;
-    padding: 15px 0;
-}
+@import "templates/_variables.scss";
+@import "templates/_section.scss";
+@import "templates/_header.scss";
+@import "templates/_footer";

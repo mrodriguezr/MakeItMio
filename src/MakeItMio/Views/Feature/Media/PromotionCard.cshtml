@@ -1,0 +1,21 @@
+﻿@using MakeItMio.Extensions
+@using Template = MakeItMio.Templates.MediaTemplates;
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div class="spot-overlay">
+
+    @Html.Sitecore().BeginField(Template.HasMediaDestination.Fields.Destination.ToString(), Model.Item, new { haschildren = true })
+    <div class="hero-media">
+        @Html.Sitecore().ImageField(Template.HasMedia.Fields.Image.ToString(), Model.Item, cssClass: "img-responsive")
+    </div>
+    <div class="overlay">
+        <div class="overlay-inner">
+            <div class="overlay-title">@Html.Sitecore().Field(Template.HasMedia.Fields.Title.ToString(), Model.Item)</div>
+            <div class="overlay-text">
+                @Html.Sitecore().Field(Template.HasMediaDescription.Fields.Description.ToString(), Model.Item)
+            </div>
+        </div>
+    </div>
+    @Html.Sitecore().EndField()
+</div>

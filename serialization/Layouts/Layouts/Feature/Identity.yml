@@ -1,0 +1,14 @@
+﻿---
+ID: "6f73492e-4b46-494d-bff2-f87da0b6bc35"
+Parent: "9c5acc3e-cfe1-4ced-a50a-8b543c48117e"
+Template: "93227c5d-4fef-474d-94c0-f252ec8e8219"
+Path: /sitecore/layout/Layouts/Feature/Identity
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160310T155058Z
