@@ -7,10 +7,13 @@ DB: master
 SharedFields:
 - ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
   Hint: Path
-  Value: /Views/Website/SubLayouts/1 Column.cshtml
+  Value: /Views/Common/Sublayouts/1 Column.cshtml
 - ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
   Hint: Parameters Template
   Value: "{5E3779F3-03EA-4C6A-9B8A-6FFCC48CA49D}"
+- ID: "ef7c5528-7307-4e19-863b-da19eed6a9ed"
+  Hint: Open Properties after Add
+  Value: "-"
 Languages:
 - Language: en
   Versions:

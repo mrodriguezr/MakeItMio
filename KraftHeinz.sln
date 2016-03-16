@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.MakeItMio.Website", "src\Websites\KraftHeinz.MakeItMio.Website\KraftHeinz.MakeItMio.Website.csproj", "{E2B1104D-506F-445A-899B-4E79612DA25A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{C18E9CBD-9B00-436F-8F99-23FC9ED3C74D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		src\MakeItMio\App_Config\Include\Project\DevSettings.config = src\MakeItMio\App_Config\Include\Project\DevSettings.config
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Extensions", "src\Foundation\KraftHeinz.Extensions\KraftHeinz.Extensions.csproj", "{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Repositories", "src\Foundation\KraftHeinz.Repositories\KraftHeinz.Repositories.csproj", "{A59CD1BE-379A-49D0-8573-565C488AF6B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Templates", "src\Foundation\KraftHeinz.Templates\KraftHeinz.Templates.csproj", "{1236B046-F913-4E4D-AA62-2532033C12BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{3BEF79BE-7E13-4E47-A3C5-E435571BD844}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Websites", "Websites", "{9E504531-1023-4A43-A374-6281F5537032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{EA0A243B-EEC9-4C11-B17D-0C5C2EF9FBF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Common.Website", "src\Websites\KraftHeinz.Common.Website\KraftHeinz.Common.Website.csproj", "{6A878D71-8278-4AC4-8597-892BF29B7FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Features", "src\Features\KraftHeinz.Features\KraftHeinz.Features.csproj", "{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2B1104D-506F-445A-899B-4E79612DA25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B1104D-506F-445A-899B-4E79612DA25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B1104D-506F-445A-899B-4E79612DA25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B1104D-506F-445A-899B-4E79612DA25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5635AB6-264C-4D90-B9A4-C008DB85FAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59CD1BE-379A-49D0-8573-565C488AF6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59CD1BE-379A-49D0-8573-565C488AF6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59CD1BE-379A-49D0-8573-565C488AF6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59CD1BE-379A-49D0-8573-565C488AF6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1236B046-F913-4E4D-AA62-2532033C12BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1236B046-F913-4E4D-AA62-2532033C12BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1236B046-F913-4E4D-AA62-2532033C12BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1236B046-F913-4E4D-AA62-2532033C12BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A878D71-8278-4AC4-8597-892BF29B7FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A878D71-8278-4AC4-8597-892BF29B7FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A878D71-8278-4AC4-8597-892BF29B7FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A878D71-8278-4AC4-8597-892BF29B7FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2B1104D-506F-445A-899B-4E79612DA25A} = {9E504531-1023-4A43-A374-6281F5537032}
+		{D5635AB6-264C-4D90-B9A4-C008DB85FAE9} = {EA0A243B-EEC9-4C11-B17D-0C5C2EF9FBF3}
+		{A59CD1BE-379A-49D0-8573-565C488AF6B7} = {EA0A243B-EEC9-4C11-B17D-0C5C2EF9FBF3}
+		{1236B046-F913-4E4D-AA62-2532033C12BA} = {EA0A243B-EEC9-4C11-B17D-0C5C2EF9FBF3}
+		{6A878D71-8278-4AC4-8597-892BF29B7FBF} = {9E504531-1023-4A43-A374-6281F5537032}
+		{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A} = {3BEF79BE-7E13-4E47-A3C5-E435571BD844}
+	EndGlobalSection
+EndGlobal
