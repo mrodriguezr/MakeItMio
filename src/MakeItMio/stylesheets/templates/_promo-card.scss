@@ -1,0 +1,24 @@
+﻿.promo-card {
+    .promo-destination {
+        text-decoration: none;
+    }
+    .promo-text, .promo-image {
+        width: 45%;
+        display: inline-block;
+    }
+    .promo-image {
+    }
+
+    .promo-text {
+        vertical-align: top;
+
+        .promo-description {
+            font-weight: bold;
+        }
+
+        .promo-title{
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+}

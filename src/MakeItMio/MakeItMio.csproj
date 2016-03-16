@@ -151,6 +151,14 @@
     <Content Include="assets\makeitmio.min.css">
       <DependentUpon>makeitmio.css</DependentUpon>
     </Content>
+    <Content Include="assets\slick-theme.css" />
+    <Content Include="assets\slick-theme.min.css">
+      <DependentUpon>slick-theme.css</DependentUpon>
+    </Content>
+    <Content Include="assets\slick.css" />
+    <Content Include="assets\slick.min.css">
+      <DependentUpon>slick.css</DependentUpon>
+    </Content>
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.svg" />
     <Content Include="javascripts\bootstrap-sprockets.js" />
     <Content Include="javascripts\bootstrap.js" />
@@ -167,6 +175,12 @@
     <Content Include="javascripts\bootstrap\tab.js" />
     <Content Include="javascripts\bootstrap\tooltip.js" />
     <Content Include="javascripts\bootstrap\transition.js" />
+    <Content Include="stylesheets\vendor\slick\ajax-loader.gif" />
+    <Content Include="stylesheets\vendor\slick\fonts\slick.svg" />
+    <Content Include="stylesheets\vendor\slick\slick-theme.css" />
+    <Content Include="stylesheets\vendor\slick\slick.css" />
+    <Content Include="javascripts\vendor\slick\slick.js" />
+    <Content Include="javascripts\vendor\slick\slick.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -207,6 +221,10 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="stylesheets\vendor\slick\fonts\slick.eot" />
+    <Content Include="stylesheets\vendor\slick\fonts\slick.ttf" />
+    <Content Include="stylesheets\vendor\slick\fonts\slick.woff" />
+    <Content Include="stylesheets\vendor\slick\slick.scss" />
     <None Include="Properties\PublishProfiles\local.pubxml" />
     <Content Include="Views\Website\SubLayouts\1 Column.cshtml" />
     <Content Include="Views\Website\SubLayouts\Section.cshtml" />
@@ -293,6 +311,11 @@
     <Content Include="Views\Feature\Media\PromotionCard.cshtml" />
     <Content Include="Views\Website\SubLayouts\2 Column 6-6.cshtml" />
     <Content Include="stylesheets\templates\_section.scss" />
+    <Content Include="stylesheets\templates\_promo-card.scss" />
+    <Content Include="Views\Website\SubLayouts\4 Column 3-3-3.cshtml" />
+    <Content Include="Views\Feature\Media\Carousel.cshtml" />
+    <Content Include="stylesheets\templates\_carousel.scss" />
+    <Content Include="stylesheets\vendor\slick\slick-theme.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

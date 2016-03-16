@@ -17,4 +17,13 @@
   <File Include="Views\Feature\Media\PromotionCard.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{8753B1EF-C157-4B2A-BF5C-A37F6DF89DCD}</Item>
   </File>
+  <File Include="Views\Website\SubLayouts\4 Column 3-3-3.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{19C58230-3452-4CF4-B295-DBD49B949C45}</Item>
+  </File>
+  <File Include="Views\Website\SubLayouts\2 Column 6-6.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{F4793523-073A-48A2-9ADB-87EFA2C2174A}</Item>
+  </File>
+  <File Include="Views\Feature\Media\Carousel.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{AD994753-DBA2-4D4A-9DF1-44A1C20BB04F}</Item>
+  </File>
 </Project>

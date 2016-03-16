@@ -3,18 +3,16 @@
 
 @model Sitecore.Mvc.Presentation.RenderingModel
 
-<div class="spot-overlay">
+<div class="promo-card">
 
-    @Html.Sitecore().BeginField(Template.HasMediaDestination.Fields.Destination.ToString(), Model.Item, new { haschildren = true })
-    <div class="hero-media">
+    @Html.Sitecore().BeginField(Template.HasMediaDestination.Fields.Destination.ToString(), Model.Item, new { @class="promo-destination", haschildren = true })
+    <div class="promo-image">
         @Html.Sitecore().ImageField(Template.HasMedia.Fields.Image.ToString(), Model.Item, cssClass: "img-responsive")
     </div>
-    <div class="overlay">
-        <div class="overlay-inner">
-            <div class="overlay-title">@Html.Sitecore().Field(Template.HasMedia.Fields.Title.ToString(), Model.Item)</div>
-            <div class="overlay-text">
-                @Html.Sitecore().Field(Template.HasMediaDescription.Fields.Description.ToString(), Model.Item)
-            </div>
+    <div class="promo-text">
+        <div class="promo-title">@Html.Sitecore().Field(Template.HasMedia.Fields.Title.ToString(), Model.Item)</div>
+        <div class="promo-description">
+            @Html.Sitecore().Field(Template.HasMediaDescription.Fields.Description.ToString(), Model.Item)
         </div>
     </div>
     @Html.Sitecore().EndField()

@@ -1,0 +1,23 @@
+﻿@using MakeItMio.Extensions
+@using Template = MakeItMio.Templates.MediaTemplates;
+
+
+<div class="carousel">
+    <div>
+        <img class="carousel-image img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Slide2&w=1600&h=535" />
+        @*@Html.Sitecore().ImageField(Template.HasMedia.Fields.Image.ToString(), Model.Item, cssClass: "img-responsive carousel-image")*@
+    </div>
+    
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../../../javascripts/vendor/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.carousel').slick({
+            autoplay: true,
+            dots: true
+        });
+    });
+</script>
