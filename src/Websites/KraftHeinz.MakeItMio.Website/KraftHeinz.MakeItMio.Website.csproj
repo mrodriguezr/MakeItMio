@@ -186,6 +186,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="Pipelines\ResolveQueryableDatasources.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -217,6 +218,7 @@
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="App_Config\Include\SublayoutQueryableDatasource.config" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -308,7 +310,6 @@
     <Content Include="Views\Feature\Media\PromotionCard.cshtml" />
     <Content Include="stylesheets\templates\_section.scss" />
     <Content Include="stylesheets\templates\_promo-card.scss" />
-    <Content Include="Views\Feature\Media\Carousel.cshtml" />
     <Content Include="stylesheets\templates\_carousel.scss" />
     <Content Include="stylesheets\vendor\slick\slick-theme.scss" />
     <None Include="Web.Debug.config">
@@ -326,6 +327,10 @@
     <Folder Include="Views\Website\SubLayouts\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\KraftHeinz.Pipelines\KraftHeinz.Pipelines.csproj">
+      <Project>{96650b99-e646-46b7-80bc-b179daa9004a}</Project>
+      <Name>KraftHeinz.Pipelines</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Foundation\KraftHeinz.Repositories\KraftHeinz.Repositories.csproj">
       <Project>{a59cd1be-379a-49d0-8573-565c488af6b7}</Project>
       <Name>KraftHeinz.Repositories</Name>

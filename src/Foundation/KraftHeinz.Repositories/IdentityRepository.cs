@@ -1,16 +1,16 @@
 ﻿using System;
 using Sitecore;
 using Sitecore.Data.Items;
-using MakeItMio.Extensions;
-using Template = MakeItMio.Templates.Templates;
+using KraftHeinz.Extensions;
+using KraftHeinz.Templates;
 
-namespace MakeItMio.Repositories
+namespace KraftHeinz.Repositories
 {
     public class IdentityRepository
     {
         public static Item Get(Item contextItem)
         {
-            return contextItem.GetAncestorOrSelfOfTemplate(Template.Identity.ID) ?? Context.Site.GetContextItem(Template.Identity.ID);
+            return contextItem.GetAncestorOrSelfOfTemplate(IdentityTemplates.Identity.ID) ?? Context.Site.GetContextItem(IdentityTemplates.Identity.ID);
         }
     }
 }

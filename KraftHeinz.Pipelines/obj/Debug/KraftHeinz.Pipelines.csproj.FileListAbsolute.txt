@@ -1,0 +1,12 @@
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\bin\Debug\KraftHeinz.Pipelines.dll
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\bin\Debug\KraftHeinz.Pipelines.pdb
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\bin\Debug\Sitecore.Kernel.dll
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\bin\Debug\Sitecore.Mvc.Analytics.dll
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\bin\Debug\Sitecore.Mvc.dll
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\bin\Debug\System.Web.Mvc.dll
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\obj\Debug\KraftHeinz.Pipelines.csprojResolveAssemblyReference.cache
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\obj\Debug\KraftHeinz.Pipelines.dll
+C:\Projects\MakeItMio\KraftHeinz.Pipelines\obj\Debug\KraftHeinz.Pipelines.pdb

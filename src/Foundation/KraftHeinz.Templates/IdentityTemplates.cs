@@ -1,8 +1,8 @@
 ﻿using Sitecore.Data;
 
-namespace MakeItMio.Templates
+namespace KraftHeinz.Templates
 {
-    public struct Templates
+    public struct IdentityTemplates
     {
         public struct Identity
         {

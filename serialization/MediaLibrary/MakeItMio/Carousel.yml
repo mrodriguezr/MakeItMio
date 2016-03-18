@@ -1,0 +1,17 @@
+﻿---
+ID: "c45b9c40-4251-489b-ba65-828595a96005"
+Parent: "0e2c68ef-e77a-4a25-a496-5400734c4793"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/MakeItMio/Carousel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160317T213356Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

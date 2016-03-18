@@ -2,7 +2,16 @@
     margin-left: -15px;
     margin-right: -15px;
 
-    .carousel-image {
-        width: 100%;
+    .pagemode-edit &{
+        .carousel-slide {
+            margin-bottom: 10px;
+        }
+    }
+
+    .carousel-slide {
+
+        .carousel-image {
+            width: 100%;
+        }
     }
 }

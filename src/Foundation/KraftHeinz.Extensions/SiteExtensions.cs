@@ -4,7 +4,7 @@ using Sitecore.Data;
 using Sitecore.Sites;
 using Sitecore.Data.Items;
 
-namespace MakeItMio.Extensions
+namespace KraftHeinz.Extensions
 {
     public static class SiteExtensions
     {

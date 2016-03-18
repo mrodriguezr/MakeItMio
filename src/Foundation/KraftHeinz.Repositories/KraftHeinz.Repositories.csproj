@@ -7,8 +7,8 @@
     <ProjectGuid>{A59CD1BE-379A-49D0-8573-565C488AF6B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MakeItMio.Repositories</RootNamespace>
-    <AssemblyName>MakeItMio.Repositories</AssemblyName>
+    <RootNamespace>KraftHeinz.Repositories</RootNamespace>
+    <AssemblyName>KraftHeinz.Repositories</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\references\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\..\..\references\Sitecore.Kernel.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IdentityRepository.cs" />
+    <Compile Include="MediaRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

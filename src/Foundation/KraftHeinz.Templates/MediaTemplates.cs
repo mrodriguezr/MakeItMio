@@ -1,7 +1,7 @@
 ﻿using System;
 using Sitecore.Data;
 
-namespace MakeItMio.Templates
+namespace KraftHeinz.Templates
 {
     public struct MediaTemplates
     {

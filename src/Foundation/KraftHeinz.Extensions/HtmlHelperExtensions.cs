@@ -2,7 +2,7 @@
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Helpers;
 
-namespace MakeItMio.Extensions
+namespace KraftHeinz.Extensions
 {
     public static class HtmlHelperExtensions
     {

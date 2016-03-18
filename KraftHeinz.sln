@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Common.Website",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Features", "src\Features\KraftHeinz.Features\KraftHeinz.Features.csproj", "{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Pipelines", "KraftHeinz.Pipelines\KraftHeinz.Pipelines.csproj", "{96650B99-E646-46B7-80BC-B179DAA9004A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96650B99-E646-46B7-80BC-B179DAA9004A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96650B99-E646-46B7-80BC-B179DAA9004A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96650B99-E646-46B7-80BC-B179DAA9004A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96650B99-E646-46B7-80BC-B179DAA9004A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,5 +76,6 @@ Global
 		{1236B046-F913-4E4D-AA62-2532033C12BA} = {EA0A243B-EEC9-4C11-B17D-0C5C2EF9FBF3}
 		{6A878D71-8278-4AC4-8597-892BF29B7FBF} = {9E504531-1023-4A43-A374-6281F5537032}
 		{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A} = {3BEF79BE-7E13-4E47-A3C5-E435571BD844}
+		{96650B99-E646-46B7-80BC-B179DAA9004A} = {EA0A243B-EEC9-4C11-B17D-0C5C2EF9FBF3}
 	EndGlobalSection
 EndGlobal

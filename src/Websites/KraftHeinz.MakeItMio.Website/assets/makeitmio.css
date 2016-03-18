@@ -33,6 +33,8 @@ footer {
 .carousel {
   margin-left: -15px;
   margin-right: -15px; }
-  .carousel .carousel-image {
+  .pagemode-edit .carousel .carousel-slide {
+    margin-bottom: 10px; }
+  .carousel .carousel-slide .carousel-image {
     width: 100%; }
 
