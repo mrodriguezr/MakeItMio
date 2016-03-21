@@ -5,4 +5,7 @@
   <File Include="Views\Media\CarouselSlide.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{2B12E22A-7BC3-41CD-83E0-17E223B5F3F0}</Item>
   </File>
+  <File Include="Views\Media\CarouselView.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{D6180CEA-23B9-4800-AEBA-8C67B1227F4D}</Item>
+  </File>
 </Project>

@@ -9,12 +9,14 @@ using System.Linq;
 
 namespace KraftHeinz.Features.Models.Media
 {
-    public static class CarouselRenderingModel
+    public class CarouselSlides
     {
-        public static IEnumerable<Item> GetCarouselSlides(RenderingModel rendering)
-        {
-            var items = RenderingContext.Current.ContextItem.Children.Where(i => i.IsDerived(MediaTemplates.HasMedia.ID));
+        public IEnumerable<Item> Items { get; set; }
 
+        public static IEnumerable<Item> GetCarouselSlides(Item item)
+        {
+            
+            var items = MediaRepository.GetChildren(item);
             return items;
         }
     }

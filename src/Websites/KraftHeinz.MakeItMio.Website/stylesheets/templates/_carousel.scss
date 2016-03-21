@@ -13,5 +13,17 @@
         .carousel-image {
             width: 100%;
         }
+
+        .text-container {
+            position: absolute;
+            text-align: center;
+            top: 45%;
+            width: 100%;
+            color: white;
+         
+            .carousel-title {
+                font-size: 75px;
+            }
+        }
     }
 }

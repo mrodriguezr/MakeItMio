@@ -9,9 +9,15 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "17cb820d-307b-4b86-80ff-66b7c6033ce8"
+      Hint: MediaDestination
+      Value: "<link linktype=\"external\" url=\"http://www.google.com\" anchor=\"\" target=\"\" />"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160318T032727Z
     - ID: "63abb450-8f5e-441e-9349-797892fc2097"
       Hint: MediaImage
-      Value: "<image mediaid=\"{B89F9945-8DFB-4A09-9486-6AF8A13221C8}\" />"
+      Value: "<image mediaid=\"{B89F9945-8DFB-4A09-9486-6AF8A13221C8}\" ></image>"
+    - ID: "dde4d0ef-2763-4d11-a8ec-356e87feed26"
+      Hint: MediaTitle
+      Value: MAKE IT HAPPEN

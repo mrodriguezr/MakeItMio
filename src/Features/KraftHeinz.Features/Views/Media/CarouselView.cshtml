@@ -1,12 +1,14 @@
 ﻿@using KraftHeinz.Features.Models.Media
-@using Sitecore.Mvc.Presentation
+@using KraftHeinz.Extensions
+@using KraftHeinz.Templates
+@using Sitecore.Data.Items
 
-@model CarouselSlides
+@model Sitecore.Mvc.Presentation.RenderingModel
 
 <div class="carousel">
-    @foreach (var slide in Model.Items)
+    @foreach (Item slide in Model.Item.Children)
     {
-        @Html.Sitecore().ViewRendering("CarouselSlide",slide)
+        @Html.Action("CarouselSlide", "MediaFeature", new { model = slide });
     }
 
     @Html.Sitecore().DynamicPlaceholder("slides")

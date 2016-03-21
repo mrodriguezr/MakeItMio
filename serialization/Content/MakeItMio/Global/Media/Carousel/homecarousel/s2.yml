@@ -1,0 +1,17 @@
+﻿---
+ID: "1abe2745-f3e1-45a1-8575-846df82c9a22"
+Parent: "c937c1ee-a626-4b2e-8990-3b767e58b30c"
+Template: "b99f9951-76b3-4474-bcb3-5d606c68ba98"
+Path: /sitecore/content/MakeItMio/Global/Media/Carousel/homecarousel/s2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160321T155242Z
+    - ID: "63abb450-8f5e-441e-9349-797892fc2097"
+      Hint: MediaImage
+      Value: "<image mediaid=\"{3B4547C1-891B-49F0-8F69-0793BA0B07D1}\" ></image>"

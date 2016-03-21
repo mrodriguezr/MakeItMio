@@ -3,10 +3,22 @@
 
 @model Sitecore.Mvc.Presentation.RenderingModel
 
+
 <div class="carousel-slide">
     <div class="carousel-slide-content">
-        <div>
-            @Html.Sitecore().ImageField(MediaTemplates.HasMedia.Fields.Image.ToString(), Model.Item, cssClass: "img-responsive carousel-image")
-        </div>
+        @Html.Sitecore().BeginField(MediaTemplates.HasMedia.Fields.Destination.ToString(), Model.Item, new { haschildren = true })
+            <div class="background-image">
+                @Html.Sitecore().ImageField(MediaTemplates.HasMedia.Fields.Image.ToString(), Model.Item, cssClass: "img-responsive carousel-image")
+            </div>
+            <div class="text-container">
+                <p class="carousel-title">
+                    @Html.Sitecore().Field(MediaTemplates.HasMedia.Fields.Title.ToString(), Model.Item)
+                </p>
+                <p class="carousel-description">
+                    @Html.Sitecore().Field(MediaTemplates.HasMediaDescription.Fields.Description.ToString(), Model.Item)
+                </p>
+            </div>
+        @Html.Sitecore().EndField()
     </div>
 </div>
+

@@ -37,4 +37,12 @@ footer {
     margin-bottom: 10px; }
   .carousel .carousel-slide .carousel-image {
     width: 100%; }
+  .carousel .carousel-slide .text-container {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 100%;
+    color: white; }
+    .carousel .carousel-slide .text-container .carousel-title {
+      font-size: 75px; }
 
