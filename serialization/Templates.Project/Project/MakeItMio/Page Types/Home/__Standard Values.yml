@@ -14,6 +14,16 @@ SharedFields:
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{01EBC249-5E1F-4F1E-B2A1-D83EBEA56DCF}">
         <r
+          id="{C6992A56-C075-4F83-8427-06FC55BE057A}"
+          ph="navbar"
+          uid="{A3B47A27-16B1-4AF0-B7FB-E25673526645}" />
+        <r
+          ds=""
+          id="{58C81DF3-8047-4273-8B0B-185C4B6469B9}"
+          par=""
+          ph="navbar-left"
+          uid="{965548C8-CA3B-470C-8341-20A79C01FCF8}" />
+        <r
           id="{20C8E5E8-9688-4949-BFFC-702E55DFA342}"
           ph="footer"
           uid="{14C1CE3B-6F94-4ECF-91ED-EB5185D2806A}" />

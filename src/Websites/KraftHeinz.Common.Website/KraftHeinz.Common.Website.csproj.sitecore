@@ -5,4 +5,7 @@
   <File Include="Views\Common\Sublayouts\Section.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{B71DC749-8569-4FF2-85B8-78EFBB6C2722}</Item>
   </File>
+  <File Include="Views\Common\Sublayouts\Navbar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{C6992A56-C075-4F83-8427-06FC55BE057A}</Item>
+  </File>
 </Project>

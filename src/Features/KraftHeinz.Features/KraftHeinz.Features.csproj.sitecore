@@ -11,4 +11,7 @@
   <File Include="Views\Media\Video.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{BA50DE1D-7B85-4633-96DD-8F30EFEE90C9}</Item>
   </File>
+  <File Include="Views\Identity\Logo.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{58C81DF3-8047-4273-8B0B-185C4B6469B9}</Item>
+  </File>
 </Project>

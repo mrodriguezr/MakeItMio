@@ -125,6 +125,8 @@
     <Content Include="Views\Media\CarouselSlide.cshtml" />
     <Content Include="Views\Media\CarouselView.cshtml" />
     <Content Include="Views\Media\Video.cshtml" />
+    <Content Include="Views\Identity\Copyright.cshtml" />
+    <Content Include="Views\Identity\Logo.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -145,9 +147,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Identity\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\Foundation\KraftHeinz.Extensions\KraftHeinz.Extensions.csproj">
       <Project>{d5635ab6-264c-4d90-b9a4-c008db85fae9}</Project>
