@@ -28,16 +28,10 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{AB15FD3A-C880-4134-818E-C543B5DDFEA9}"
-              p:before="r[@uid='{4E351CAD-5AA5-41FC-87BC-3781B9BAD888}']"
-              s:ds="{EFA7CC63-A445-44B7-8792-89EDEF835970}"
-              s:id="{D6180CEA-23B9-4800-AEBA-8C67B1227F4D}"
-              s:ph="/page-layout/section_3441a88e-f47d-428f-9dc0-8269a2144cd8/col-huge_299d7b81-ec5d-40d4-a8dd-62c6abacf250" />
-            <r
-              uid="{4E351CAD-5AA5-41FC-87BC-3781B9BAD888}"
+              uid="{20283808-3E5F-4C1A-9BB6-162491B62D36}"
               p:before="r[@uid='{0730B8B5-0680-4DE1-8001-D529F7EC2644}']"
-              s:ds="{C937C1EE-A626-4B2E-8990-3B767E58B30C}"
-              s:id="{D6180CEA-23B9-4800-AEBA-8C67B1227F4D}"
+              s:ds="{CA4BBDE9-7505-4658-8350-8CD484CDE16A}"
+              s:id="{BA50DE1D-7B85-4633-96DD-8F30EFEE90C9}"
               s:ph="/page-layout/section_3441a88e-f47d-428f-9dc0-8269a2144cd8/col-huge_299d7b81-ec5d-40d4-a8dd-62c6abacf250" />
             <r
               uid="{0730B8B5-0680-4DE1-8001-D529F7EC2644}"

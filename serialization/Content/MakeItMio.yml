@@ -15,3 +15,6 @@ Languages:
     - ID: "4cf9f653-60b6-4f62-a9d5-4f3653e12b3b"
       Hint: Copyright
       Value: ©2016 Kraft Foods Inc. All rights reserved.
+    - ID: "d16565e9-e11f-485c-9ac9-224965b04a32"
+      Hint: Logo
+      Value: "<image mediaid=\"{0D693EEB-D3F4-4B68-AC8B-15E48E4A11FC}\" />"

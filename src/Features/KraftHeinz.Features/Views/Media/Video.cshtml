@@ -1,0 +1,65 @@
+﻿@using KraftHeinz.Extensions
+@using KraftHeinz.Templates
+@using Sitecore.Data.Fields
+@using Sitecore.Resources.Media
+@using Sitecore.Resources.Media;
+@using Sitecore.Data.Items;
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div class="video-feature">
+    <div class="video-container">
+        @if (Sitecore.Context.PageMode.IsExperienceEditor)
+        {
+            @Html.Sitecore().BeginField(MediaTemplates.HasMediaVideo.Fields.Url.ToString(), Model.Item, new { haschildren = true })
+                @Html.Sitecore().ImageField(MediaTemplates.HasMedia.Fields.Image.ToString(), Model.Item, cssClass: "img-responsive bg-image")
+                @Html.Sitecore().ImageField(MediaTemplates.HasMediaVideo.Fields.PlayIcon.ToString(), Model.Item, cssClass: "img-responsive play-icon")
+            @Html.Sitecore().EndField()
+        }
+        else
+        {
+            @Html.Sitecore().ImageField(MediaTemplates.HasMedia.Fields.Image.ToString(), Model.Item, cssClass: "img-responsive bg-image")
+            @Html.Sitecore().ImageField(MediaTemplates.HasMediaVideo.Fields.PlayIcon.ToString(), Model.Item, cssClass: "img-responsive play-icon")
+        }
+    </div>
+
+    <div class="video-overlay">
+        @{
+            LinkField videoField = Model.Item.Fields["MediaVideoUrl"];
+            var videoUrl = videoField != null ? string.Format("{0}?rel=0&enablejsapi=1", videoField.Url) : string.Empty;
+
+            var frameId = "video" + Guid.NewGuid().ToString("N");
+        }
+
+        <iframe id="@frameId" src="@videoUrl" frameborder="0" width="560" height="315" rel="0"></iframe>
+    </div>
+
+    <script type="text/javascript">
+        var player;
+        var $overlay = $('.video-overlay');
+        var $videoContainer = $('.video-feature .video-container');
+
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // API ready
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('@frameId');
+        }
+        
+        $videoContainer.click(function () {
+            $overlay.addClass('is-playing');
+            player.playVideo(0);
+        });
+
+        $overlay.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $overlay.removeClass('is-playing');
+            player.stopVideo();
+        });
+    </script>
+</div>

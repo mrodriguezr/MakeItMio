@@ -1,8 +1,8 @@
 ﻿---
-ID: "17cb820d-307b-4b86-80ff-66b7c6033ce8"
-Parent: "4e6be2bf-f5dd-480e-a609-143103571645"
+ID: "34c0d021-4af2-403f-beeb-5105e3cdce45"
+Parent: "fed95966-d110-4715-b354-3f4892ecae00"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Media/_HasMedia/Media/MediaDestination
+Path: /sitecore/templates/Feature/Media/_HasMediaVideo/Media/MediaVideoUrl
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,12 +10,16 @@ SharedFields:
   Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 100
 Languages:
 - Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Video URL
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160310T175136Z
+      Value: 20160321T195036Z

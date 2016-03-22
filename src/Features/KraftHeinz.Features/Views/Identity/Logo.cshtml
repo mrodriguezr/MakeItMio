@@ -1,0 +1,20 @@
+﻿@using KraftHeinz.Repositories
+@using Template = KraftHeinz.Templates.IdentityTemplates;
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var identity = IdentityRepository.Get(Model.Item);
+    if (identity == null)
+    {
+        return;
+    }
+}
+
+<div class="container">
+    <div class="row">
+        <small class="copyright">
+            @Html.Sitecore().Field(Template.Identity.Fields.Copyright.ToString(), identity)
+        </small>
+    </div>
+</div>

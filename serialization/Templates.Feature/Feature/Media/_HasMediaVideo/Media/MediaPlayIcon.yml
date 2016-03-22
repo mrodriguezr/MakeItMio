@@ -1,8 +1,8 @@
 ﻿---
-ID: "63abb450-8f5e-441e-9349-797892fc2097"
-Parent: "4e6be2bf-f5dd-480e-a609-143103571645"
+ID: "c9dc282a-c723-4848-81d2-b43a5a90f2b7"
+Parent: "fed95966-d110-4715-b354-3f4892ecae00"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Media/_HasMedia/Media/MediaImage
+Path: /sitecore/templates/Feature/Media/_HasMediaVideo/Media/MediaPlayIcon
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -16,10 +16,10 @@ Languages:
   Fields:
   - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
     Hint: Title
-    Value: Image
+    Value: Play Icon
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160310T175135Z
+      Value: 20160321T195036Z

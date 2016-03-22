@@ -13,7 +13,6 @@ namespace KraftHeinz.Templates
             {
                 public static readonly ID Title = new ID("{DDE4D0EF-2763-4D11-A8EC-356E87FEED26}");
                 public static readonly ID Image = new ID("{63ABB450-8F5E-441E-9349-797892FC2097}");
-                public static readonly ID Destination = new ID("{17CB820D-307B-4B86-80FF-66B7C6033CE8}");
             }
         }
 
@@ -34,6 +33,17 @@ namespace KraftHeinz.Templates
             public struct Fields
             {
                 public static readonly ID Destination = new ID("{7D9E634D-69E6-420C-883B-039FF37B2BC9}");
+            }
+        }
+
+        public struct HasMediaVideo
+        {
+            public static readonly ID ID = new ID("{1083DF99-FAE5-4CA5-8D97-BF671A6C30F1}");
+
+            public struct Fields
+            {
+                public static readonly ID PlayIcon = new ID("{C9DC282A-C723-4848-81D2-B43A5A90F2B7}");
+                public static readonly ID Url = new ID("{34C0D021-4AF2-403F-BEEB-5105E3CDCE45}");
             }
         }
     }

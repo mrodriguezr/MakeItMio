@@ -6,7 +6,7 @@
 
 <div class="carousel-slide">
     <div class="carousel-slide-content">
-        @Html.Sitecore().BeginField(MediaTemplates.HasMedia.Fields.Destination.ToString(), Model.Item, new { haschildren = true })
+        @Html.Sitecore().BeginField(MediaTemplates.HasMediaDestination.Fields.Destination.ToString(), Model.Item, new { haschildren = true })
             <div class="background-image">
                 @Html.Sitecore().ImageField(MediaTemplates.HasMedia.Fields.Image.ToString(), Model.Item, cssClass: "img-responsive carousel-image")
             </div>

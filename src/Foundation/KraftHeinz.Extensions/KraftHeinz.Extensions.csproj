@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FieldExtensions.cs" />
     <Compile Include="HtmlHelperExtensions.cs" />
     <Compile Include="ItemExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

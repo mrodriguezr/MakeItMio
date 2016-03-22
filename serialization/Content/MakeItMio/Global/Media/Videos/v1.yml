@@ -1,0 +1,20 @@
+﻿---
+ID: "ca4bbde9-7505-4658-8350-8cd484cde16a"
+Parent: "fb1ae5ef-c8a3-4034-bcb8-5b919bacdd54"
+Template: "229f94a3-80e1-4701-8a7a-6b32dd23c94b"
+Path: /sitecore/content/MakeItMio/Global/Media/Videos/v1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160321T204126Z
+    - ID: "34c0d021-4af2-403f-beeb-5105e3cdce45"
+      Hint: MediaVideoUrl
+      Value: "<link linktype=\"external\" url=\"https://www.youtube.com/embed/V8ff5fi7aA8\" anchor=\"\" target=\"\" />"
+    - ID: "63abb450-8f5e-441e-9349-797892fc2097"
+      Hint: MediaImage
+      Value: "<image mediaid=\"{9536B21D-5DFA-4E94-A368-E2CA5A341CD1}\" />"

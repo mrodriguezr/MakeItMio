@@ -1,23 +1,23 @@
 ﻿---
-ID: "b99f9951-76b3-4474-bcb3-5d606c68ba98"
+ID: "229f94a3-80e1-4701-8a7a-6b32dd23c94b"
 Parent: "8340ee3c-7fa0-418f-bbfa-fd9d8bf612b8"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/MakeItMio/Content Types/Media/Carousel Slide
+Path: /sitecore/templates/Project/MakeItMio/Content Types/Media/Video
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: apps/32x32/photo.png
+  Value: Apps/32x32/Tour.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: |
     {D1C46BBC-E086-4B4B-8066-CD41B16B1BF0}
+    {1083DF99-FAE5-4CA5-8D97-BF671A6C30F1}
     {7C05004F-737F-4AF3-B444-D4F25978AF3C}
-    {2A813C2F-7E6F-4E6C-AF3C-BCC412279AFB}
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{57235C38-3D94-48E7-9AB0-283933F0005F}"
+  Value: "{A3223AD9-CF43-4E4C-B068-02F962C0863B}"
 Languages:
 - Language: en
   Versions:
@@ -25,7 +25,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20160317T172609Z
+      Value: 20160321T195614Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: sitecore\admin

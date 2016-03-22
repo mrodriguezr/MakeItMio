@@ -124,6 +124,7 @@
     <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
     <Content Include="Views\Media\CarouselSlide.cshtml" />
     <Content Include="Views\Media\CarouselView.cshtml" />
+    <Content Include="Views\Media\Video.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

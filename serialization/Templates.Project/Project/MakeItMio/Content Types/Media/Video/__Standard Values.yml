@@ -1,0 +1,20 @@
+﻿---
+ID: "a3223ad9-cf43-4e4c-b068-02f962c0863b"
+Parent: "229f94a3-80e1-4701-8a7a-6b32dd23c94b"
+Template: "229f94a3-80e1-4701-8a7a-6b32dd23c94b"
+Path: /sitecore/templates/Project/MakeItMio/Content Types/Media/Video/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160321T201626Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c9dc282a-c723-4848-81d2-b43a5a90f2b7"
+      Hint: MediaPlayIcon
+      Value: "<image mediaid=\"{73579DD9-38E9-421E-9045-3381F6EB4DC3}\" />"
