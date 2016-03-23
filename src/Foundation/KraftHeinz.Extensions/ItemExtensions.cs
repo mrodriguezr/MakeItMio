@@ -3,6 +3,9 @@ using System.Linq;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Data.Managers;
+using Sitecore.Xml.Xsl;
+using Sitecore.Data.Fields;
+using Sitecore.Links;
 
 namespace KraftHeinz.Extensions
 {
@@ -31,6 +34,47 @@ namespace KraftHeinz.Extensions
             return !templateId.IsNull && item.IsDerived(item.Database.Templates[templateId]);
         }
 
+        public static string Url(this Item item, UrlOptions options = null)
+        {
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item));
+            }
+
+            return options != null ? LinkManager.GetItemUrl(item, options) : LinkManager.GetItemUrl(item);
+        }
+
+        public static bool HasContextLanguage(this Item item)
+        {
+            var latestVersion = item.Versions.GetLatestVersion();
+            return latestVersion?.Versions.Count > 0;
+        }
+
+        public static string LinkFieldUrl(this Item item, ID fieldID)
+        {
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item));
+            }
+            if (ID.IsNullOrEmpty(fieldID))
+            {
+                throw new ArgumentNullException(nameof(fieldID));
+            }
+            var field = item.Fields[fieldID];
+            if (field == null)
+            {
+                return string.Empty;
+            }
+            var linkUrl = new LinkUrl();
+            return linkUrl.GetUrl(item, fieldID.ToString());
+        }
+
+        public static string LinkFieldTarget(this Item item, ID fieldID)
+        {
+            XmlField field = item.Fields[fieldID];
+            return field?.GetAttribute("target");
+        }
+        
         #endregion
 
         #region Private Methods

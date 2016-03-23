@@ -8,4 +8,7 @@
   <File Include="Views\Common\Sublayouts\Navbar.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
     <Item DatabaseName="master">{C6992A56-C075-4F83-8427-06FC55BE057A}</Item>
   </File>
+  <File Include="Views\Common\Sublayouts\Footer.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{6E02F41D-F30F-4C9C-BC56-01B7B8BB1289}</Item>
+  </File>
 </Project>

@@ -1,0 +1,24 @@
+﻿---
+ID: "333f9d09-a8b1-4195-b459-64ec261953ac"
+Parent: "0e52c4dd-ba9e-4eee-93e5-27e5a2f8149d"
+Template: "0e52c4dd-ba9e-4eee-93e5-27e5a2f8149d"
+Path: /sitecore/templates/Project/MakeItMio/Content Types/Link Menu/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {7C993EE9-EBAD-41AF-BCBE-0CA692F81B4C}
+    {0E52C4DD-BA9E-4EEE-93E5-27E5A2F8149D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T163719Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

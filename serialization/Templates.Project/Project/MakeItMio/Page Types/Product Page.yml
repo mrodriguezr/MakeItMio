@@ -1,0 +1,31 @@
+﻿---
+ID: "b6d86b1d-4ab2-4ec3-87ec-eb8ff4799793"
+Parent: "4620a0a1-d751-49d3-bd03-c083a23f62d6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/MakeItMio/Page Types/Product Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/UI.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {E6821832-8F8D-48EB-89E5-D07B1C0F9B71}
+    {A41B037F-767C-42B4-8952-43C3DC211E7A}
+    {3627C2E0-0F02-42FA-B2ED-6EA6F85BAD0F}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{E1B2F7B4-DE57-4930-BCFA-EABACFC32D81}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160322T160917Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,4 +1,109 @@
 ﻿
-header {
-    height: 98px;
+nav {
+    &.navbar {
+        min-height: 98px;
+        margin-bottom: 0;
+
+        .navbar-header {
+            .navbar-toggle {
+                border: none;
+                margin-right: 0;
+            }
+
+            .navbar-brand {
+                height: auto;
+            }
+            
+            .icon-bar {
+                background-color: $color-primary;
+                width: 30px;
+                height: 5px;
+            }
+            /* Small Devices, Tablets */
+            @media only screen and (max-width : 768px) {
+                img {
+                    width: 80%;
+                }
+            }
+             /* Extra Small Devices, Phones */ 
+            @media only screen and (max-width : 480px) {
+                img {
+                    width: 60%;
+                }
+            }
+        }
+
+        .navbar-collapse {
+            overflow: hidden;
+        }
+
+        .navbar-nav {
+            position: relative;
+            top: 15px;
+
+            &.navbar-center {
+                border-right: 2px dotted $color-primary;
+                padding-right: 7%;
+                margin-right: 5%;                
+            }
+
+
+            /* Small Devices, Tablets */
+            @media only screen and (max-width : 992px) {            
+                &.navbar-center  {
+                    border-right: none;
+                }
+            }
+
+             @media only screen and (max-width : 1200px) {            
+                &.navbar-center  {
+                    padding-right: 0;
+                    margin-right: 0;   
+                }
+            }
+
+            &.navbar-right {
+                padding-left: 5%;    
+                @media only screen and (min-width: 768px){
+                    float: none !important;       
+                    display: inline-block;                              
+                }            
+                /* Small Devices, Tablets */
+                @media only screen and (max-width : 992px) {
+                    left: 8%;
+                    margin-bottom: 10px;   
+                }
+                /* Small Devices, Tablets */
+                @media only screen and (max-width : 768px) {
+                    left: 0;
+                    padding-left: 0;   
+                }
+            }
+
+            a {
+                color: $color-primary;
+                font-weight: bold;
+                font-size: 18px;
+
+                &.active-menu {
+                    background-color: $color-primary;
+                    color: $color-white;
+                    border-radius: 30px;
+                    padding: 12px;
+                    font-size: 16px;
+                }
+            }
+
+            .right-menu-item {
+                a {
+                    font-size: 16px;
+                     @media only screen and (max-width : 768px) {
+                        color: $color-secundary;
+                        font-size: 14px;
+                    }
+                }
+            }            
+        }
+    }
+
 }

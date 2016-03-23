@@ -30,15 +30,16 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="../../../javascripts/vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../../../javascripts/bootstrap.min.js"></script>
 
     @Html.Sitecore().VisitorIdentification()
 </head>
 
 <body class="@(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
     <div id="main-container">
-        <header class="header-static">
+        @*<header class="header-static">*@
             @Html.Sitecore().Placeholder("navbar")
-        </header>
+        @*</header>*@
         <main role="main">
             @Html.Sitecore().Placeholder("page-layout")
         </main>

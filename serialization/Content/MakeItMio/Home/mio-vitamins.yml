@@ -1,0 +1,17 @@
+﻿---
+ID: "9d481398-eca8-4d21-a51d-40704262b07a"
+Parent: "e5fc2f8e-dcd6-4726-904a-d1d3334e525d"
+Template: "b6d86b1d-4ab2-4ec3-87ec-eb8ff4799793"
+Path: "/sitecore/content/MakeItMio/Home/mio-vitamins"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T133843Z
+    - ID: "7e616172-68a8-4b2d-80e1-236a74b691cc"
+      Hint: NavigationTitle
+      Value: vitamins

@@ -1,0 +1,19 @@
+﻿@using KraftHeinz.Features
+@using KraftHeinz.Templates
+@model KraftHeinz.Features.Models.Navigation.NavigationItems
+
+@*<div class="collapse navbar-collapse">*@
+
+<ul class="nav navbar-nav navbar-right">
+    @if (Model != null && Model.Items != null)
+    {
+        foreach (var item in Model.Items)
+        {
+            <li class="right-menu-item">
+                <a class="text-uppercase" href="@item.Url" target="@item.Target">
+                    @Html.Sitecore().Field(NavigationTemplates.Navigable.Fields.Title.ToString(), item.Item)
+                </a>                    
+            </li>
+        }
+    }
+</ul>

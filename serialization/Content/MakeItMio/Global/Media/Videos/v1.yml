@@ -17,4 +17,7 @@ Languages:
       Value: "<link linktype=\"external\" url=\"https://www.youtube.com/embed/V8ff5fi7aA8\" anchor=\"\" target=\"\" />"
     - ID: "63abb450-8f5e-441e-9349-797892fc2097"
       Hint: MediaImage
-      Value: "<image mediaid=\"{9536B21D-5DFA-4E94-A368-E2CA5A341CD1}\" />"
+      Value: "<image mediaid=\"{9536B21D-5DFA-4E94-A368-E2CA5A341CD1}\" ></image>"
+    - ID: "c9dc282a-c723-4848-81d2-b43a5a90f2b7"
+      Hint: MediaPlayIcon
+      Value: "<image mediaid=\"{73579DD9-38E9-421E-9045-3381F6EB4DC3}\" ></image>"

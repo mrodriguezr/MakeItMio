@@ -3,6 +3,24 @@ footer {
     background: none $color-background;
     border-top: 3px solid $color-primary;
     color: $color-white;
-    height: 60px;
+    height: 95px;
     padding: 15px 0;
+
+    .copyright {
+        margin-left: 15px;
+    }
+
+    .nav.navbar-nav {
+        li {
+            > a {
+                color: $color-white;
+                font-weight: bold;
+
+                &:hover {
+                    color: $color-primary;
+                    background: none;
+                }
+            }
+        }
+    }
 }

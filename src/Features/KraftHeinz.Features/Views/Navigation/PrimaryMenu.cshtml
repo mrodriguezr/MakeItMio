@@ -1,0 +1,22 @@
+﻿@using KraftHeinz.Features
+@using KraftHeinz.Templates
+@model KraftHeinz.Features.Models.Navigation.NavigationItems
+
+@*<div class="collapse navbar-collapse" id="siteNavbar">*@
+
+<ul class="nav navbar-nav navbar-center">
+    @if (Model != null && Model.Items != null)
+    {
+        foreach (var item in Model.Items.Where(i => i.IsSecundary != true))
+        {
+            var cssClass = item.IsSecundary ? "is-secundary visible-xs" : "";
+
+            <li class="@cssClass">
+                <a class="text-uppercase" href="@item.Url" target="@item.Target">
+                    @Html.Sitecore().Field(NavigationTemplates.Navigable.Fields.Title.ToString(), item.Item)
+                </a>
+            </li>
+        }
+    }
+</ul>
+    @*</div>*@

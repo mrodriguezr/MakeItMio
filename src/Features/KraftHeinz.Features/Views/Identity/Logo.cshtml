@@ -1,5 +1,6 @@
 ﻿@using KraftHeinz.Repositories
-@using Template = KraftHeinz.Templates.IdentityTemplates;
+@using KraftHeinz.Extensions
+@using KraftHeinz.Templates
 
 @model Sitecore.Mvc.Presentation.RenderingModel
 
@@ -9,12 +10,12 @@
     {
         return;
     }
+    //var homeUrl = Sitecore.Context.Site?.GetStartItem()?.GetUrl() ?? "/";
+    var homeUrl = "/";
 }
 
-<div class="container">
-    <div class="row">
-        <small class="copyright">
-            @Html.Sitecore().Field(Template.Identity.Fields.Logo.ToString(), identity)
-        </small>
-    </div>
-</div>
+<a class="navbar-brand" href="@homeUrl">
+    @*<span class="logo">*@
+        @Html.Sitecore().ImageField(IdentityTemplates.Identity.Fields.Logo.ToString(), identity, cssClass: "img-responsive")        
+    @*</span>*@
+</a>

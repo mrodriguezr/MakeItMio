@@ -1,0 +1,32 @@
+﻿@using KraftHeinz.Templates
+@model KraftHeinz.Features.Models.Navigation.NavigationItems
+
+@{
+    if (Model != null && Model.Items == null)
+    {
+        return;
+    }
+}
+
+<div class="container">
+    <div class="row">
+        <ul class="nav navbar-nav">
+            @foreach (var item in Model.Items)
+            {
+                <li class="">
+                    <a href="@item.Url" target="@item.Target" title="@item.Item[NavigationTemplates.Navigable.Fields.Title]">
+                        @if (!string.IsNullOrWhiteSpace(item.Item[NavigationTemplates.LinkMenuItem.Fields.Icon]))
+                {
+                            <i class="fa fa-@item.Item[NavigationTemplates.LinkMenuItem.Fields.Icon]"></i>
+                        }
+                        else
+                        {
+                            @Html.Sitecore().Field(NavigationTemplates.Navigable.Fields.Title.ToString(), item.Item)
+                        }
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+

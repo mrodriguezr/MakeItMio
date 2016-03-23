@@ -1,0 +1,14 @@
+﻿---
+ID: "8f89062e-1d74-4e7c-ad7b-649df97f0ff0"
+Parent: "04dc4056-0817-40c0-9cf2-9d207fc326e4"
+Template: "0e52c4dd-ba9e-4eee-93e5-27e5a2f8149d"
+Path: /sitecore/content/MakeItMio/Global/Links/Social Menu
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T164050Z

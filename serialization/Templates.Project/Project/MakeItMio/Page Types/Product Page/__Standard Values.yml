@@ -1,0 +1,55 @@
+﻿---
+ID: "e1b2f7b4-de57-4930-bcfa-eabacfc32d81"
+Parent: "b6d86b1d-4ab2-4ec3-87ec-eb8ff4799793"
+Template: "b6d86b1d-4ab2-4ec3-87ec-eb8ff4799793"
+Path: /sitecore/templates/Project/MakeItMio/Page Types/Product Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{01EBC249-5E1F-4F1E-B2A1-D83EBEA56DCF}">
+        <r
+          id="{C6992A56-C075-4F83-8427-06FC55BE057A}"
+          ph="navbar"
+          uid="{5F9EF319-0E45-4263-8D87-A6809BB13857}" />
+        <r
+          id="{58C81DF3-8047-4273-8B0B-185C4B6469B9}"
+          ph="navbar-left"
+          uid="{B010AC76-6C09-43EF-8421-966BA105C67B}" />
+        <r
+          id="{77540ECB-E70E-4FF1-B8C2-0F24E435861D}"
+          ph="navbar-center"
+          uid="{1A5B8483-0B4D-48E2-B983-FA8A6873DDBD}" />
+        <r
+          id="{44059B17-D67A-45A2-AE58-54E7D7D2D03A}"
+          ph="navbar-right"
+          uid="{B2759248-485E-4937-9947-EB2428445F70}" />
+        <r
+          id="{20C8E5E8-9688-4949-BFFC-702E55DFA342}"
+          ph="footer"
+          uid="{7761131F-3C01-4BFA-90AB-5509CDCA73B9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160322T161201Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "f6fea62b-12b3-45f7-b203-c0bd55ffab52"
+      Hint: ShowInNavigation
+      Value: 1

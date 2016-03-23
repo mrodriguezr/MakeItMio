@@ -5,6 +5,12 @@ Template: "6da31be4-12f0-48fb-97e2-c504c465b1c0"
 Path: /sitecore/templates/Project/MakeItMio/Page Types/Home/__Standard Values
 DB: master
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {B6D86B1D-4AB2-4EC3-87EC-EB8FF4799793}
+    {7C993EE9-EBAD-41AF-BCBE-0CA692F81B4C}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -16,17 +22,35 @@ SharedFields:
         <r
           id="{C6992A56-C075-4F83-8427-06FC55BE057A}"
           ph="navbar"
-          uid="{A3B47A27-16B1-4AF0-B7FB-E25673526645}" />
+          uid="{67BC452F-DEFC-4FA6-99B2-A2B889418C4E}" />
+        <r
+          id="{58C81DF3-8047-4273-8B0B-185C4B6469B9}"
+          ph="navbar-left"
+          uid="{D875E186-9691-4FF0-860F-F98583735A22}" />
+        <r
+          id="{77540ECB-E70E-4FF1-B8C2-0F24E435861D}"
+          ph="navbar-center"
+          uid="{C28A9024-F436-4A9A-9DCB-10B07A93A596}" />
+        <r
+          id="{44059B17-D67A-45A2-AE58-54E7D7D2D03A}"
+          ph="navbar-right"
+          uid="{6EF55EA9-AC7B-4E65-BBD5-6B42523222BE}" />
+        <r
+          id="{6E02F41D-F30F-4C9C-BC56-01B7B8BB1289}"
+          ph="footer"
+          uid="{482FB7EE-95DE-46B5-8C0D-F3DDC6CBA932}" />
+        <r
+          ds="{4498342E-F376-41C8-9283-B59EA5756511}"
+          id="{6FB6097B-A14C-48AC-9ECB-31A33EBEEBDA}"
+          par=""
+          ph="footernavigation"
+          uid="{A92911DC-67D1-4A7F-AEA5-572012D58D6D}" />
         <r
           ds=""
-          id="{58C81DF3-8047-4273-8B0B-185C4B6469B9}"
-          par=""
-          ph="navbar-left"
-          uid="{965548C8-CA3B-470C-8341-20A79C01FCF8}" />
-        <r
           id="{20C8E5E8-9688-4949-BFFC-702E55DFA342}"
-          ph="footer"
-          uid="{14C1CE3B-6F94-4ECF-91ED-EB5185D2806A}" />
+          par=""
+          ph="copyright"
+          uid="{71CD40C7-A858-4C22-9559-CCE3B0FFB541}" />
       </d>
     </r>
 Languages:
@@ -34,6 +58,12 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20160307T213357Z
