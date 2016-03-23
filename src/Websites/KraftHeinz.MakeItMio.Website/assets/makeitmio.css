@@ -81,7 +81,10 @@ footer {
   border-top: 3px solid #00a7ea;
   color: #fff;
   height: 95px;
-  padding: 15px 0; }
+  padding: 15px 0;
+  /* Small Devices, Tablets */
+  /* Extra Small Devices, Phones */
+  /* Custom, iPhone Retina */ }
   footer .copyright {
     margin-left: 15px; }
   footer .nav.navbar-nav li > a {
@@ -90,6 +93,33 @@ footer {
     footer .nav.navbar-nav li > a:hover {
       color: #00a7ea;
       background: none; }
+  @media only screen and (max-width: 768px) {
+    footer {
+      height: auto; }
+      footer .nav.navbar-nav li {
+        float: left; }
+        footer .nav.navbar-nav li > a {
+          padding: 12px; }
+      footer .footer-right {
+        width: 200px; }
+      footer .footer-left {
+        width: 545px; }
+      footer .copyright {
+        margin-left: 0; } }
+  @media only screen and (max-width: 480px) {
+    footer .nav.navbar-nav li > a {
+      padding: 5px; }
+    footer .footer-left {
+      max-width: 345px;
+      width: 100%; }
+    footer .footer-right {
+      width: 160px; } }
+  @media only screen and (max-width: 320px) {
+    footer .footer-left {
+      max-width: 260px;
+      width: 100%; }
+      footer .footer-left a {
+        font-size: 10px; } }
 
 .promo-card .promo-destination {
   text-decoration: none; }

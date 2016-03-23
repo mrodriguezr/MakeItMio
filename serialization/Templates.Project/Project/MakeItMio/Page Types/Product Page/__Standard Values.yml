@@ -30,9 +30,27 @@ SharedFields:
           ph="navbar-right"
           uid="{B2759248-485E-4937-9947-EB2428445F70}" />
         <r
-          id="{20C8E5E8-9688-4949-BFFC-702E55DFA342}"
+          id="{6E02F41D-F30F-4C9C-BC56-01B7B8BB1289}"
           ph="footer"
+          uid="{CF693AA2-A460-41D6-A27D-FD5579250349}" />
+        <r
+          ds="{4498342E-F376-41C8-9283-B59EA5756511}"
+          id="{6FB6097B-A14C-48AC-9ECB-31A33EBEEBDA}"
+          par=""
+          ph="footernavigation"
+          uid="{22514492-BBB9-45F8-B73F-9FF95BC512DC}" />
+        <r
+          ds=""
+          id="{20C8E5E8-9688-4949-BFFC-702E55DFA342}"
+          par=""
+          ph="copyright"
           uid="{7761131F-3C01-4BFA-90AB-5509CDCA73B9}" />
+        <r
+          ds="{8F89062E-1D74-4E7C-AD7B-649DF97F0FF0}"
+          id="{4EE5E1A5-095C-4CE3-A7C3-27C0967B7137}"
+          par=""
+          ph="socialmenu"
+          uid="{05A4AAE9-10B9-415F-8559-A0B05F7F62EC}" />
       </d>
     </r>
 Languages:

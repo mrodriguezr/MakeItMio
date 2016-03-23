@@ -1,11 +1,16 @@
 ﻿@using Sitecore
 @model Sitecore.Mvc.Presentation.RenderingModel
 
-<div class="footer-left col-sm-8">
-        @Html.Sitecore().Placeholder("footernavigation")
-        @Html.Sitecore().Placeholder("copyright")
-</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="footer-right col-sm-4 col-sm-push-8 center-block">
+            @Html.Sitecore().Placeholder("socialmenu")
+        </div>
 
-<div class="footer-right col-sm-4">
-    @Html.Sitecore().Placeholder("socialmenu")
+        <div class="footer-left col-sm-8 col-sm-pull-4 center-block">
+            @Html.Sitecore().Placeholder("footernavigation")
+            @Html.Sitecore().Placeholder("copyright")
+        </div>
+    </div>
+
 </div>

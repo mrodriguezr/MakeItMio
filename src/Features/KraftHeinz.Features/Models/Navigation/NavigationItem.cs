@@ -10,6 +10,7 @@ namespace KraftHeinz.Features.Models.Navigation
     {
         public Item Item { get; set; }
         public string Url { get; set; }
+        public string IconUrl { get; set; }
         public bool IsActive { get; set; }
         public bool IsSecundary { get; set; }
         public int Level { get; set; }

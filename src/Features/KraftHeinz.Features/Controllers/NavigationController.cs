@@ -1,5 +1,6 @@
 ﻿using KraftHeinz.Features.Repositories;
 using KraftHeinz.Features.Repositories.Interfaces;
+using Sitecore;
 using Sitecore.Mvc.Presentation;
 using System;
 using System.Collections.Generic;
@@ -45,5 +46,15 @@ namespace KraftHeinz.Features.Controllers
             return this.View("NavigationLinks", items);
         }
 
+        public ActionResult SocialMenu()
+        {
+            //if (string.IsNullOrEmpty(RenderingContext.Current.Rendering.DataSource))
+            //{
+            //    return Context.PageMode.IsExperienceEditor ? this.InfoMessage(new InfoMessage(DictionaryRepository.Get("/navigation/linkmenu/noitems", "This menu has no items."), InfoMessage.MessageType.Warning)) : null;
+            //}
+            var item = RenderingContext.Current.Rendering.Item;
+            var items = _navigationRepository.GetLinkMenuItems(item);
+            return View("SocialMenu", items);
+        }
     }
 }

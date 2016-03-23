@@ -130,6 +130,7 @@
     <Content Include="Views\Navigation\PrimaryMenu.cshtml" />
     <Content Include="Views\Navigation\SecundaryMenu.cshtml" />
     <Content Include="Views\Navigation\NavigationLinks.cshtml" />
+    <Content Include="Views\Navigation\SocialMenu.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

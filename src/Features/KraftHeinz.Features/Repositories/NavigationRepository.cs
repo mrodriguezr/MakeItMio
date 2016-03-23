@@ -128,7 +128,8 @@ namespace KraftHeinz.Features.Repositories
                 Target = (item.IsDerived(NavigationTemplates.LinkMenuItem.ID) ? item.LinkFieldTarget(NavigationTemplates.LinkMenuItem.Fields.Link) : ""),
                 IsActive = this.IsItemActive(item),
                 IsSecundary = IsSecundaryNavigation(item),
-                Children = this.GetChildNavigationItems(item, level + 1, maxLevel)
+                Children = this.GetChildNavigationItems(item, level + 1, maxLevel),
+                IconUrl = (item.IsDerived(NavigationTemplates.LinkMenuItem.ID) ? item.LinkFieldUrl(NavigationTemplates.LinkMenuItem.Fields.Icon) : string.Empty)
             };
         }
 

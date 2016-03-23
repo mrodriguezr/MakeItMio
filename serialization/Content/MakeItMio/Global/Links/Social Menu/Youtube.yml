@@ -1,0 +1,26 @@
+﻿---
+ID: "cda310a2-4410-4cd1-bcc0-3461880409f2"
+Parent: "8f89062e-1d74-4e7c-ad7b-649df97f0ff0"
+Template: "7c993ee9-ebad-41af-bcbe-0ca692f81b4c"
+Path: /sitecore/content/MakeItMio/Global/Links/Social Menu/Youtube
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T183414Z
+    - ID: "4438399a-61df-4b70-94ad-ccdd9cd2aafd"
+      Hint: Link
+      Value: "<link linktype=\"external\" url=\"https://www.youtube.com/user/makeitmio\" anchor=\"\" target=\"_blank\" />"
+    - ID: "503230c6-167d-4534-b8da-f91a981517fc"
+      Hint: Icon
+      Value: "<image mediaid=\"{37DAEDA9-C4B3-4D2D-83DD-0482A427E240}\" />"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "f6fea62b-12b3-45f7-b203-c0bd55ffab52"
+      Hint: ShowInNavigation
+      Value: 1
