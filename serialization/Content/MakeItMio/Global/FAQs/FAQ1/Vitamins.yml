@@ -1,0 +1,17 @@
+﻿---
+ID: "5334f4e4-5645-4dfd-bbab-09c5eadcd76e"
+Parent: "bcd232a8-aa2e-418a-9c70-00544b0d3d9c"
+Template: "2daff87b-5248-426e-b455-ffc4f3501293"
+Path: /sitecore/content/MakeItMio/Global/FAQs/FAQ1/Vitamins
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T224838Z
+    - ID: "42b143c2-0eb1-4b24-9373-363434e31e49"
+      Hint: TabName
+      Value: Vitamins

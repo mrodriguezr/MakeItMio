@@ -6,6 +6,7 @@ footer {
     height: 95px;
     padding: 15px 0;
 
+
     .copyright {
         margin-left: 15px;
     }
@@ -22,6 +23,10 @@ footer {
                 }
             }
         }
+    }
+
+    .footer-right {
+        z-index: 1;
     }
 
     /* Small Devices, Tablets */
@@ -78,8 +83,11 @@ footer {
                 font-size: 10px;
             }
         }
+    }
 
-
+    
+    .nav > li > a:hover, .nav > li > a:focus {
+        background: none;
     }
 
 }

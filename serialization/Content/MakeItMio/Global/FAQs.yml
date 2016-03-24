@@ -1,0 +1,14 @@
+﻿---
+ID: "69d16702-b121-4a98-9ba0-0aeb6e3b6f9c"
+Parent: "4bdcb7f9-4001-4831-85fe-1c0da28f7c15"
+Template: "d10bf2fb-4d49-445b-b8c6-9f1bbd12d087"
+Path: /sitecore/content/MakeItMio/Global/FAQs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T224738Z

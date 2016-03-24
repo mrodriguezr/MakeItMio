@@ -134,6 +134,7 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\MediaFeatureController.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Models\Media\CarouselSlides.cs" />
@@ -156,7 +157,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\FAQ\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Foundation\KraftHeinz.Extensions\KraftHeinz.Extensions.csproj">
       <Project>{d5635ab6-264c-4d90-b9a4-c008db85fae9}</Project>

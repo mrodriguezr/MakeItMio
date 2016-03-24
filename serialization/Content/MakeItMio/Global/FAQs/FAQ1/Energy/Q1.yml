@@ -1,0 +1,23 @@
+﻿---
+ID: "aa3e7d26-e3b3-47af-be77-1a070b152053"
+Parent: "7c87e0d0-ff37-460e-b57a-c260394ba166"
+Template: "73f437c7-e37f-4f32-af79-43377acf825b"
+Path: /sitecore/content/MakeItMio/Global/FAQs/FAQ1/Energy/Q1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T225028Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c2ff7647-b927-4367-a2aa-8b00b829fc92"
+      Hint: Question
+      Value: "What is MiO?"
+    - ID: "cd44cd06-3e23-42c1-b536-0c1aabccf5a2"
+      Hint: Answer
+      Value: MiO is a first of its kind liquid water enhancer. Available in multiple flavors and three categories, MiO lets discerning consumers make drinks exactly as they like, so one can enjoy a customized beverage each and every time.

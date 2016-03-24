@@ -1,0 +1,25 @@
+﻿---
+ID: "4b4a6d4d-a42d-43dd-b195-1f83d4b87323"
+Parent: "2daff87b-5248-426e-b455-ffc4f3501293"
+Template: "2daff87b-5248-426e-b455-ffc4f3501293"
+Path: /sitecore/templates/Project/MakeItMio/Content Types/FAQ/FAQ Tab/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{73F437C7-E37F-4F32-AF79-43377ACF825B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160323T224025Z
+    - ID: "42b143c2-0eb1-4b24-9373-363434e31e49"
+      Hint: TabName
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
