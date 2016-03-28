@@ -137,10 +137,14 @@
     <Compile Include="Controllers\FAQController.cs" />
     <Compile Include="Controllers\MediaFeatureController.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="Models\FAQ\FAQ.cs" />
+    <Compile Include="Models\FAQ\FAQTab.cs" />
     <Compile Include="Models\Media\CarouselSlides.cs" />
     <Compile Include="Models\Navigation\NavigationItem.cs" />
     <Compile Include="Models\Navigation\NavigationItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\FAQRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IFAQRepository.cs" />
     <Compile Include="Repositories\Interfaces\IMediaRepository.cs" />
     <Compile Include="Repositories\Interfaces\INavigationRepository.cs" />
     <Compile Include="Repositories\MediasRepository.cs" />
