@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Common.Website",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Features", "src\Features\KraftHeinz.Features\KraftHeinz.Features.csproj", "{A5C4A72E-ED3B-4E1E-A8C8-1E5D6004AE7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Pipelines", "KraftHeinz.Pipelines\KraftHeinz.Pipelines.csproj", "{96650B99-E646-46B7-80BC-B179DAA9004A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KraftHeinz.Pipelines", "src\Foundation\KraftHeinz.Pipelines\KraftHeinz.Pipelines.csproj", "{96650B99-E646-46B7-80BC-B179DAA9004A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
